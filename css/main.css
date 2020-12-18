@@ -1,0 +1,299 @@
+
+/*======== site default css ========*/ 
+*{
+    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/*======== google fonts ========*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	width: 1170px;
+    padding: 0;
+	margin: 0 auto;
+}
+
+.container:before,
+.container:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-50{
+    width: 50%;
+    padding: 15px 15px;
+    float: left;
+}
+
+.col-25{
+    width: 25%;
+    padding: 15px 15px;
+    float: left;
+}
+
+.col-33{
+    width: 33.33%;
+    padding: 15px 15px;
+    float: left;
+}
+
+.col-30{
+    width: 30%;
+    padding: 15px 15px;
+    float: left;
+}
+
+.col-70{
+    width: 70%;
+    padding: 15px 15px;
+    float: left;
+}
+
+.section-padding-top {
+    padding-top: 100px;
+}
+
+.section-padding-bottom {
+    padding-bottom : 100px;
+}
+
+/*======== home css ========*/ 
+
+.header-top {
+    background-color: black;
+}
+
+.header-site-left i {
+    color: #E41F05;
+    margin-right: 10px;
+}
+
+.header-site-left span a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.header-site-right {
+    float: right;
+}
+
+.header-site-right a {
+    color: #E41F05;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 172px;
+    height: 28px;
+}
+
+.main-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 11px;
+}
+
+.main-menu ul li a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.main-menu ul li a:hover{
+    color: #FF5421;
+    transition: .3s;
+}
+
+.header {
+    background-color: #fff;
+    padding: 13px 0;
+}
+
+.home {
+    background: url('../images/slider1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: 83px;
+}
+
+.home:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #1b0f0e;
+    opacity: .3;
+    z-index: -1;
+}
+
+.main-header {
+    margin-top: 162px;
+}
+
+.main-header h3 {
+    font-size: 55px;
+    color: #FF5421;
+    line-height: 84px;
+}
+
+.main-menu {
+    margin-top: -33px;
+}
+.main-header h3 span {
+    color: #fff;
+    font-size: 78px;
+}
+
+.main-header p{
+    color: #fff;
+}
+.logo {
+    margin-top: 12px;
+}
+.main-header p {
+    color: #fff;
+    line-height: 31px;
+    margin-top: 26px;
+}
+
+button.btn-1 {
+    background: #FF2506;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 32px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+button.btn-2 {
+    background: ##fff;
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 32px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 21px;
+    transition: .3s;
+}
+
+button.btn-2:hover {
+    background: #FF2506;
+    color: #fff;
+}
+
+/*======== count css ========*/ 
+
+.count {
+    background: url(../images/slide_5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: 83px;
+}
+
+.count:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #1b0f0e;
+    opacity: .8;
+    z-index: -1;
+}
+
+.student i {
+    color: #FF5421;
+    font-size: 53px;
+    padding-bottom: 25px;
+}
+
+.student span {
+    color: #fff;
+    font-size: 44px;
+    margin-left: -22px;
+    font-weight: 900;
+}
+
+.student h5 {
+    color: #fff;
+    margin-left: -55px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.learning {
+    text-align: center;
+}
+
+.learning-pera h3 {
+    font-size: 30px;
+    padding-bottom: 22px;
+}
+
+.learning-pera h3 span {
+    color: #FF5421;
+}
+
+.learning-pera p {
+    font-size: 20px;
+    padding-bottom: 65px;
+}
+
+.courses {
+    background: #F2F2F2;
+    padding: 43px;
+}
+
+.online h4 {
+    font-size: 20px;
+    padding-bottom: 16px;
+    padding-top: 20px;
+}
+
+.online p {
+    font-size: 18px;
+    color: #615454;
+}
+
+.header-site-left span a:hover {
+    color: #FF5421;
+}
